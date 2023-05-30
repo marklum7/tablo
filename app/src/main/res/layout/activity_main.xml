@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/photo_1"
+        android:layout_width="@dimen/text_size"
+        android:layout_height="@dimen/text_size1"
+        android:layout_marginStart="@dimen/text_size5"
+        android:layout_marginTop="@dimen/text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/photo_1" />
+
+    <ImageView
+        android:id="@+id/photo_2"
+        android:layout_width="@dimen/text_size"
+        android:layout_height="@dimen/text_size1"
+        android:layout_marginTop="@dimen/text_size"
+        android:layout_marginEnd="@dimen/text_size5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/photo_2" />
+
+    <TextView
+        android:id="@+id/num_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_size4"
+        android:contextClickable="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size4"
+        app:layout_constraintEnd_toEndOf="@+id/photo_1"
+        app:layout_constraintStart_toStartOf="@+id/photo_1"
+        app:layout_constraintTop_toBottomOf="@+id/photo_1" />
+
+    <TextView
+        android:id="@+id/num_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_size4"
+        android:contextClickable="false"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size4"
+        app:layout_constraintEnd_toEndOf="@+id/photo_2"
+        app:layout_constraintStart_toStartOf="@+id/photo_2"
+        app:layout_constraintTop_toBottomOf="@+id/photo_2" />
+
+    <TextView
+        android:id="@+id/num_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_size4"
+        android:text="@string/name_1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/num_2"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toEndOf="@+id/num_1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_size3"
+        android:backgroundTint="@color/red"
+        android:onClick="onClickAddMeteor"
+        android:text="@string/name_2"
+        android:textSize="@dimen/text_size2"
+        app:layout_constraintEnd_toEndOf="@+id/num_1"
+        app:layout_constraintStart_toStartOf="@+id/num_1"
+        app:layout_constraintTop_toBottomOf="@+id/num_1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/blue"
+        android:onClick="onClickAddPennant"
+        android:text="@string/name_3"
+        android:textSize="@dimen/text_size2"
+        app:layout_constraintEnd_toEndOf="@+id/num_2"
+        app:layout_constraintStart_toStartOf="@+id/num_2"
+        app:layout_constraintTop_toBottomOf="@+id/num_2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple"
+        android:onClick="onClickButtonDropping"
+        android:text="@string/name_4"
+        android:textSize="@dimen/text_size2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/button1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

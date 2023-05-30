@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Шайбу!Шайбу!!</string>
+    <string name="name_1" translatable="false">:</string>
+    <string name="name_2" translatable="false">Zenit</string>
+    <string name="name_3" translatable="false">Spartak</string>
+    <string name="name_4" translatable="false">Reset</string>
+</resources>

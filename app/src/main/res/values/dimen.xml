@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">130dp</dimen>
+    <dimen name="text_size1">140dp</dimen>
+    <dimen name="text_size2">20dp</dimen>
+    <dimen name="text_size3">60dp</dimen>
+    <dimen name="text_size4">50sp</dimen>
+    <dimen name="text_size5">30dp</dimen>
+    <dimen name="text_size6">10dp</dimen>
+    <dimen name="text_size7">40dp</dimen>
+    <dimen name="text_size8">-350dp</dimen>
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Шайбу!Шайбу!!</string>
+    <string name="name_1" translatable="false">:</string>
+    <string name="name_2" translatable="false">Зенит</string>
+    <string name="name_3" translatable="false">Спартак</string>
+    <string name="name_4" translatable="false">Сброс</string>
+</resources>
